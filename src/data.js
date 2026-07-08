@@ -1,0 +1,150 @@
+export const products = [
+  {
+    id: 1,
+    name: 'شب طلایی',
+    brand: 'لاکچری',
+    price: '۱,۲۵۰,۰۰۰',
+    tag: 'پرفروش',
+    notes: 'وانیل، چوب صندل، مشک',
+    category: 'زنانه',
+    color: '#E8D5C4',
+  },
+  {
+    id: 2,
+    name: 'باد صبحگاهی',
+    brand: '自然',
+    price: '۹۸۰,۰۰۰',
+    tag: 'جدید',
+    notes: 'لیمو، یاسمن، سدر',
+    category: 'مردانه',
+    color: '#C5D5C5',
+  },
+  {
+    id: 3,
+    name: 'رز سرخ',
+    brand: 'Prestige',
+    price: '۱,۵۰۰,۰۰۰',
+    tag: 'ویژه',
+    notes: 'گل رز، تمشک، عنبر',
+    category: 'زنانه',
+    color: '#F0D5D5',
+  },
+  {
+    id: 4,
+    name: 'چوب آتش',
+    brand: 'Oud Royal',
+    price: '۲,۱۰۰,۰۰۰',
+    tag: 'لوکس',
+    notes: 'عود، دارچین، چرم',
+    category: 'مردانه',
+    color: '#D5C5B5',
+  },
+  {
+    id: 5,
+    name: 'مهتاب',
+    brand: 'Luna',
+    price: '۸۹۰,۰۰۰',
+    tag: 'محبوب',
+    notes: 'اسطوخودوس، مشک سفید',
+    category: 'یونیسکس',
+    color: '#D5D5E8',
+  },
+  {
+    id: 6,
+    name: 'شبنم',
+    brand: 'Dew',
+    price: '۷۵۰,۰۰۰',
+    tag: 'جدید',
+    notes: 'خیار، نعناع، چای سبز',
+    category: 'یونیسکس',
+    color: '#C8DDD5',
+  },
+  {
+    id: 7,
+    name: 'امپراتور',
+    brand: 'Imperial',
+    price: '۳,۲۰۰,۰۰۰',
+    tag: 'پریمیوم',
+    notes: 'زعفران، عود، وانیل',
+    category: 'مردانه',
+    color: '#C9A96E',
+  },
+  {
+    id: 8,
+    name: 'پروانه',
+    brand: 'Butterfly',
+    price: '۱,۱۰۰,۰۰۰',
+    tag: 'فصل',
+    notes: 'شکوفه پرتقال، گل صد تومانی',
+    category: 'زنانه',
+    color: '#F5E0D0',
+  },
+]
+
+export const collections = [
+  {
+    id: 1,
+    name: 'مجموعه شب',
+    desc: 'برای شبهای خاص و مهمانی\u200cها',
+    count: 12,
+    gradient: 'linear-gradient(135deg, #1A1A1A 0%, #3A2A1A 100%)',
+  },
+  {
+    id: 2,
+    name: 'مجموعه طبیعت',
+    desc: 'الهام\u200cگرفته از دل طبیعت',
+    count: 8,
+    gradient: 'linear-gradient(135deg, #2A3A2A 0%, #4A5A3A 100%)',
+  },
+  {
+    id: 3,
+    name: 'مجموعه عاشقانه',
+    desc: 'برای لحظات عاشقانه',
+    count: 10,
+    gradient: 'linear-gradient(135deg, #3A1A2A 0%, #5A2A3A 100%)',
+  },
+]
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'مریم احمدی',
+    text: 'کیفیت عطرها فوق\u200cالعاده\u200cست. شب طلایی واقعاً بوی خاصی داره که همه می\u200cپرسن چی زدی!',
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: 'علی محمدی',
+    text: 'خریدم رو خیلی دوست داشتم. بسته\u200cبندی شیک و ارسال سریع. حتماً دوباره سفارش میدم.',
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: 'سارا رضایی',
+    text: 'مجموعه عاشقانه رو گرفتم، هر کدومشون یه دنیا حس خوب داره. ممنونم ازتون.',
+    rating: 4,
+  },
+]
+
+export const features = [
+  {
+    icon: '✦',
+    title: 'اصالت تضمینی',
+    desc: 'تمامی عطرها از برندهای معتبر و با ضمانت اصالت',
+  },
+  {
+    icon: '◆',
+    title: 'ارسال رایگان',
+    desc: 'ارسال رایگان برای سفارش\u200cهای بالای ۵۰۰ هزار تومان',
+  },
+  {
+    icon: '❖',
+    title: 'بسته\u200cبندی لوکس',
+    desc: 'بسته\u200cبندی اختصاصی و شیک برای هدیه دادن',
+  },
+  {
+    icon: '✧',
+    title: 'مشاوره رایگان',
+    desc: 'مشاوره تخصصی برای انتخاب بهترین عطر مناسب شما',
+  },
+]
